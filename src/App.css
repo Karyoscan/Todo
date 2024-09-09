@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+IS&display=swap");
+
+.App {
+  color: aliceblue;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  position: relative;
+}
+.inputYap {
+  font-weight: bold;
+  font-size: large;
+  padding: 8px 16px;
+  height: 40px;
+  width: 500px;
+  outline: none;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px 10px rgb(11, 11, 11, 0.5);
+  border: none;
+}
+
+.inputBtn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-weight: bold;
+  padding: 8px 16px;
+  height: 30px;
+  width: 60px;
+  outline: none;
+  border: none;
+  right: 510px;
+  top: 15px;
+  border-radius: 100px;
+  background-color: rgb(35, 145, 145);
+  color: aliceblue;
+  box-shadow: 0px 0px 10px 2px rgba(88, 87, 87, 0.8);
+}
+
+.app {
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inputBtn:hover {
+  background-color: rgb(35, 145, 145, 0.8);
+}
+.listBar {
+  transition:  0.5s;
+  box-shadow: 0px 0px 0px 1px rgba(217, 239, 226, 0.8);
+  margin: 5px 0px;
+  background-color: rgba(79, 215, 217, 0.8);
+  width: 600px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid rgb(119, 255, 0);
+  box-shadow: 0px 0px 2px 2px rgba(242, 255, 0, 0.5);
+}
+
+.listBarChect{
+
+  background-color: rgba(79, 215, 217, 0.2);
+  box-shadow: none;
+  border: 2px solid aliceblue;
+
+}
+
+.listBarBtn {
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding-right: 7px;
+}
+
+.listBarBtnButton {
+  color: aliceblue;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(50, 238, 12, 0.5);
+  border-radius: 5px;
+  width: 45px;
+  font-size: large;
+  border: 2px aliceblue solid;
+}
+.btn{
+  background-color: rgba(50, 238, 12, 0.1);
+
+
+}
+
+.flex {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ListBarPText{
+  text-decoration:line-through;
+  
+  
+} 
+
+.inputs{
+border: none;
+height: 25px;
+padding: 4px 8px;
+border-radius: 25px;
+outline: none;
+font-size: large;
+
+}
+
+
+.ListBarP {
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: larger;
+ 
+}
